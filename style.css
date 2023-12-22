@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.userLogo img {
+    width: 30px;
+    margin-right: 5px;
+    color: rgb(87, 87, 239);
+}
+
+.section_items{
+    list-style-type: none;
+}
+
+.section_items li i{
+   margin-right: 5px;
+}
+
+.section_contents{
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.section_contents:hover{
+    background: rgb(87, 87, 239);
+    border-radius: 2rem;
+   color: aliceblue;
+}
+
+.section_lists{
+    margin-bottom: 10px;
+}
+
+.tool,
+.project{
+    color: #888;
+}
+
+
+/* -------------------------header------------- */
+.hero{
+    margin-top: 0;
+    align-self: flex-start;
+}
+.header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+   
+}
+.header_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* .userProfile{
+    display: flex;
+    align-items: center;
+} */
+.userProfile,
+.search,
+.notification,
+.userProfile_list {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* Add margin between the sections */
+}
+.userProfile h1,
+.userProfile p {
+    margin: 0; 
+}
+.userProfile img{
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 2rem;
+}
+.search{
+    background-color: #c2bcbc;
+    border-radius: 2rem;
+    padding: 5px;
+    margin-left: auto;
+}
+
+.userProfile_list{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 10px;
+    font-weight: 700;
+}
+.userProfile_list img{
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 2rem;
+}
+.user_detail{
+    display: flex;
+    align-items: center;
+}
