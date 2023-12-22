@@ -1,3 +1,42 @@
+
+/* ----------- aside start ------------ */
+
+
+.aside{
+    width: 15%;
+    padding: 1rem;
+    height: 100vh;
+    border-right: 1px solid rgba(160, 160, 160, 0.781);
+}
+
+
+
+.userName{
+    width: 100%;
+}
+.section_items{
+    margin: 0;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.section_contents{
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.section_contents:hover{
+    background: rgb(87, 87, 239);
+    border-radius: 0.5rem;
+   color: aliceblue;
+}
+
+
+
+/* ----------- aside end ------------ */
+
+
 .container {
     display: flex;
     align-items: center;
@@ -23,17 +62,7 @@
    margin-right: 5px;
 }
 
-.section_contents{
-    margin-bottom: 10px;
-    cursor: pointer;
-    padding: 8px;
-}
 
-.section_contents:hover{
-    background: rgb(87, 87, 239);
-    border-radius: 2rem;
-   color: aliceblue;
-}
 
 .section_lists{
     margin-bottom: 10px;
@@ -49,6 +78,8 @@
 .hero{
     margin-top: 0;
     align-self: flex-start;
+    width: 100%;
+    padding: 2rem;
 }
 .header {
     padding: 10px;
@@ -110,3 +141,65 @@
     display: flex;
     align-items: center;
 }
+
+
+
+/* main */
+
+
+/* stat */
+
+.stat{
+    
+    background-color: rgb(87, 87, 239);
+    color: white;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+.stat p {
+    color: #cfcccc;
+}
+.stat .card{
+    display: flex;
+    padding: 1rem;
+}
+
+.stat .main_text{
+    display: flex;
+    align-items: center;
+}
+
+.card .img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns with equal width */
+    grid-gap: 20px; 
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    /* aside */
+    .aside{
+        width: 17%;
+    }
+
+    .stat{
+        display: flex;
+    }
+
+
+
+  }
